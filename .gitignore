@@ -1,3 +1,7 @@
+# Large data files (exceed GitHub 100 MB limit)
+data/raw/Cleaned_data_1995_2018.csv
+data/processed/final_dataset_with_predictions.csv
+
 # Virtual environment
 venv/
 

@@ -66,6 +66,8 @@ The data comes from the Russell 3000 AAER panel compiled by Gepp et al. (2021), 
 
 Training uses FY1995 to FY2002. Testing uses FY2003 onward. This temporal split avoids look-ahead bias: a model trained in 2003 would only have had access to pre-2003 data.
 
+**Note:** The large CSV files (`Cleaned_data_1995_2018.csv` and `final_dataset_with_predictions.csv`) are not included in this repository due to GitHub's file size limits. Place `Cleaned_data_1995_2018.csv` in `data/raw/` before running the notebook. The notebook will generate `final_dataset_with_predictions.csv` in `data/processed/` when you run it.
+
 ## Models
 
 | Model | Type | Variable set |
